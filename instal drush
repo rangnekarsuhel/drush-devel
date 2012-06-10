@@ -2,15 +2,18 @@ To download any file from site
 wget FILE NAME.tar.zg
 
 UNZIP
-tar zxf FILE NAME
-ln -s /rootdrush/drush /user/bin/drush
+tar vzxf drush-7.x-5.4.tar.gz
+chmod u+x drush /*Make executable*/
+ln -s /root/drush/drush /usr/bin/drush /*Make symlink*/
 
 Check drush is working or not
 go to root type 
 drush or drush Help
 
+drush status
 drush dl MODULE NAME
 drush en MODULE NAME 
+drush cron
 
 To rome any folder Command
 rm -rf NAME oF FOLDER
