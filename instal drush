@@ -1,0 +1,12 @@
+To download any file from site
+wget FILE NAME.tar.zg
+
+UNZIP
+tar zxf FILE NAME
+ln -s /rootdrush/drush /user/bin/drush
+
+Check drush is working or not
+go to root type 
+drush or drush Help
+To rome any folder Command
+rm -rf NAME oF FOLDER
