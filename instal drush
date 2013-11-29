@@ -17,3 +17,10 @@ drush cron
 
 To rome any folder Command
 rm -rf NAME oF FOLDER
+
+To change the password for any user
+drush upwd USERNAME --password="SOMEPASSWORD"
+
+If you execute drush uli some-username, this will generate one time login link for that user.
+drush uli some-username
+
